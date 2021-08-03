@@ -1,50 +1,48 @@
 {
-    "projects":
-    [
-        {
-            "id":"0",
+    "projects":[
+        {   "id": 0,
             "project_name":"A Random Quote Generator",
             "description":"It's a random quote generator, which displays quotations on a page, and can be controlled by the user.",
             "technologies":["HTML", "CSS", "Javascript"],
             "live_link":"https://marianarteixeira.github.io/FSJS_Project_1/",
             "github_link":"https://github.com/MarianaRTeixeira/FSJS_Project_1",
-            "image_urls":"public/img/A Random Quote Generator.png"
+            "image_urls":["../static/img/project_1_img_1.png", "../static/img/project_1_img_2.png" ]
         },
         {
-            "id":"1",
+            "id": 1,
             "project_name":"Data Pagination and Filtering Project",
             "description":"Its a program that display a list of student information",
             "technologies":["HTML", "CSS", "Javascript"],
             "live_link":"https://marianarteixeira.github.io/FSJS_Project_2/",
             "github_link":"https://github.com/MarianaRTeixeira/FSJS_Project_2",
-            "image_urls":"public/img/Data Pagination and Filtering.png"
+            "image_urls":["/static/img/project_2_img_1.png", "/static/img/project_2_img_2.png"]
         },
         {
-            "id":"2",
+            "id": 2,
             "project_name":"Interactive Form ",
             "description":"An interactive registration form for a fictional Full Stack conference.",
             "technologies":["HTML", "CSS", "Javascript"],
             "live_link":"https://marianarteixeira.github.io/FSJS_Project_3/",
             "github_link":"https://github.com/MarianaRTeixeira/FSJS_Project_3",
-            "image_urls":"public/img/Interactive Form.png"
+            "image_urls": ["/static/img/project_3_img_1.png", "/static/img/project_3_img_2.png"]
         },
         {
-            "id":"3",
+            "id": 3,
             "project_name":"OOP Game Show App",
             "description":"a browser-based, word guessing game.We use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase",
             "technologies":["HTML", "CSS", "Javascript"],
             "live_link":"https://marianarteixeira.github.io/FSJS_Project_4/",
             "github_link":"https://github.com/MarianaRTeixeira/FSJS_Project_4",
-            "image_urls":"public/img/OOP Game Show App.png"
+            "image_urls":["/static/img/project_4_img_1.png", "/static/img/project_4_img_2.png"]
         },
         {
-            "id":"4",
+            "id": 4,
             "project_name":"Public API Requests",
             "description":"Random User Generator API to grab information for 12 random “employees,” and use that data to build a prototype for an Awesome Startup employee directory.",
             "technologies":["HTML", "CSS", "Javascript"],
             "live_link":"https://marianarteixeira.github.io/FSJS_Project_5/",
             "github_link":"https://github.com/MarianaRTeixeira/FSJS_Project_5",
-            "image_urls":"public/img/Public API Request.png"
+            "image_urls":["/static/img/project_5_img_1.png", "/static/img/project_5_img_2.png"]
         }
     ]
 }
