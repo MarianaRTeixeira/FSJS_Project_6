@@ -1,9 +1,10 @@
 extends layout
 
 block content
-  h1= message
-  h2= err.status
-  p 500
+    h1.errorTop &#9785;&#9785;&#9785;PS...
+    h1.error= err.message
+    p.error= err.status
+  
 
     nav.nav
       a.back(href='/')
