@@ -3,9 +3,10 @@ const router = express.Router();
 const { projects } = require('../data/data.json');
 
 
-/*
-* INDEX ROUTE
-*/
+/* ********** *
+* INDEX ROUTE *
+************* */
+
  //Index
 router.get('/', (req, res, next) => {
     res.render('index', { projects });
@@ -27,5 +28,7 @@ router.get('/projects/:id', (req, res, next) => {
         res.sendStatus(404);
     }
 });
+
+
 
 module.exports = router;
