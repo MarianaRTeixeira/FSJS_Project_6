@@ -24,7 +24,9 @@
   "homepage": "https://github.com/MarianaRTeixeira/FSJS_Project_6#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.12",
     "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
