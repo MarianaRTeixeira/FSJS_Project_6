@@ -10,4 +10,4 @@ In this project I did the following alterations:
 - Add hover effect at the buttons and on the anchor links
 - Add an extra button with the Threehouse profile 
 
-To start the project run `npm start
+To start the project run `npm start`
