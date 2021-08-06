@@ -30,25 +30,24 @@ app.use((req, res, next) => {
     next(err);
   });
 ;
-
 //Global Error Handler
-app.use((err, req, res, next) => {
 
+  app.use((err, req, res, next) => {
+    
     if (err) {
       console.log('Global error handler called', err);
-    }
-  
+    }  
    if(err.status === 404){
-     res.status(404).render('page_not_found', { err })
+     res.status(404).render('page-not-found', { err })
      } else {
       err.message = err.message || `Ops something wrong with the server`;
       res.status(err.status || 500).render('error', { err });
      }
   });
+  
 
-
-
-
+ 
+ 
 /* ******** **
 * ** Server **
 * ********* **/

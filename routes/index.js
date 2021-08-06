@@ -25,10 +25,24 @@ router.get('/projects/:id', (req, res, next) => {
     if(project){
          res.render('project', { project } );
     } else {
-        res.sendStatus(404);
+        const err = new Error();
+            err.status = 404;
+            err.message = `You hit a 404 ...`;
+            console.log('404 error appear')
+            next(err)
     }
+    res.render('project', { project } );
 });
 
+router.get('/error', (req, res, next) => {
 
+    // Log out custom error handler indication
+    console.log('Custom error route called');
+  
+    const err = new Error();
+    err.message = `500 error`;
+    err.status = 500;
+    throw err;
+  });
 
 module.exports = router;
