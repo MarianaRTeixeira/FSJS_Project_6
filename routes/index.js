@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const { projects } = require('../data/data.json');
 
-
 /* ********** *
 * INDEX ROUTE *
 ************* */
@@ -35,10 +34,7 @@ router.get('/projects/:id', (req, res, next) => {
 });
 
 router.get('/error', (req, res, next) => {
-
-    // Log out custom error handler indication
-    console.log('Custom error route called');
-  
+    console.log('Error was called');
     const err = new Error();
     err.message = `500 error`;
     err.status = 500;
